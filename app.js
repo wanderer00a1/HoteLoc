@@ -4,7 +4,7 @@ const path = require('path');
 const Hotel = require('./models/hoteloc');
 const ejsMate = require('ejs-mate')
 const methodOverride = require('method-override')
-
+//error handling
 const mongoose = require('mongoose');
 
 main().catch(err =>{ 
